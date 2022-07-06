@@ -1,0 +1,65 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 24 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [hv] [hv] [toh] h h h h g f [Tph] 
+h h h h g f [ypj] j j j j h g [ypj] j [upj] j [ipj] 
+h g [toh] h h h h g f g [Tph] h h h h g f h [ypj] 
+j j j j h g h [ypj] j [upj] j [ipj] h g [op] [qsgj] 
+[isgj] [qsgj] [ij] [qj] h i l q i [8sfh] [tsfh] [8sfh] 
+[th] [8h] [th] l 8 t [9g] [yg] g 9 [yg] [9g] [yg] 
+[9h] [yg] [8f] t [9g] y [0h] u 8 t s [7d] [rd] [7d] 
+[rd] [7d] [rd] [7f] [rd] [6s] e [7d] r [8f] t 6 e 
+f [G9] [Gy] [G9] [Gy] [G9] [Gy] [9h] [yj] [5k] j [wh] 
+6 e ^ E 7 [ro] [8o] t [8o] [to] [8o] [ti] u 8 t [*o] 
+[To] [*o] [To] [*o] [Ti] u * [To] [qp] [is] [qs] [ip] 
+[qs] [ip] [qs] [id] [Wf] O W [OVxn] [V0x] [Vuxn] [V0x] 
+[ufx] [qd] [qs] [qp] [qs] [Qd] [Qs] s Q [Qd] [5f] 
+[wh] [5h] [wf] [6j] [eh] h 6 [ef] [9f] [ys] [9s] [yf] 
+[qf] [is] s q s i [8s] t [8sfhl] t [8lxvm] t [8m] 
+t [tib] b [qb] b [qb] v m q [wtuv] v [8v] v [8v] c 
+m 8 [eyic] c [9c] c [9c] x [9v] c [8x] [tu] [9c] [tu] 
+[(C] [tu] [0v] [tu] [Wud] d [0d] d [0d] d [0f] d [eus] 
+[6s] S d D f g [G6] h H j J k [6l] [yil] l [ql] l 
+[qk] j [qh] f [yod] [wdhkz] [wadhk] [woadh] h [toh] 
+h [8h] h [8h] g [8f] g [Tph] h [*h] h [*h] g f * [ypj] 
+j [9j] j [9j] h g 9 [ypj] j [upj] j [ipj] h g 9 y 
+[toh] h [8h] h [8h] g f 8 [Tph] h [*h] h [*h] g f 
+* [ypj] j [9j] j [9j] h g 9 [ypj] j [upj] j [ipj] 
+h g [op] [qsgj] [isgj] [qsgj] [igj] [qgj] h i [gjl] 
+q i [8sfh] [tsfh] [8sfh] [tfh] [8fh] h t [fhl] 8 t 
+[9dg] [ydg] [dg] 9 [ydg] [9dg] [ydg] [9dh] [ydg] [8sf] 
+t [9dg] t [0fh] t [8lxvm] t s [7ad] [rd] [7ad] [rd] 
+[7ad] [rd] [O7af] [rd] [6ps] e [6ad] e [6sf] e 6 e 
+f [G9d] [Gyd] [G9d] [Gyd] [G9d] [Gyd] [9dh] [ydj] 
+[5adhk] j [wh] [6s] e [^S] E [7d] [ro] [8o] t [8o] 
+[to] [8o] [ti] u 8 t [*o] [To] [*o] [To] [*o] [Ti] 
+u * [To] [qp] [is] [qs] [ip] [qs] [ip] [qs] [id] [Wf] 
+O W [OVxn] [V0x] [Vuxn] [V0x] [uf] [qd] [qs] [qp] 
+[qs] [Qd] [Qs] s Q [Qd] [5f] [wh] [5h] [wf] [6j] [eh] 
+h 6 [ef] [9f] [ys] [9s] [yf] [qf] [is] s q s i [8s] 
+t [8sfhl] t [8lxvm] t [8m] t [tib] b [qb] b [qb] v 
+m q [wtuv] v [8v] v [8v] c m 8 [eyic] c [9c] c [9c] 
+c [9c] v c [8x] t [9x] Z z L [yl] k J j [(H] h G g 
+[Yf] D d S [0s] u [WOuad] [Oad] [O0ad] d [0d] d [0d] 
+f d [eus] [6s] S d D f g G h H j J k [6l] L z Z x 
+c C v V b B n [6m] [yim]  m  m  m  m q  m  m [qn] 
+b [qv] x [yoz] h [wj] k [wz] m w [toh] h [8h] h [8h] 
+g f 8 [Tph] h [*h] j [*h] g f * [ypj] j [9j] j [9j] 
+h g 9 [ypj] j [upj] j [ipj] h g 9 [yh] [toh] [8h] 
+h [8h] g f 8 [Tph] h [*h] h [*h] g f * h [ypj] l [9l] 
+j [9l] j [9l] z [Oruf] g j x m  f [qtid] s [qtip] 
+s [QIyd] s [QIys] d [wuof] h [wuoh] f [eupj] h [euph] 
+f [qtid] s [qtip] s [QIyd] s [QIys] d [wuof] h [wuoh] 
+f [eupj] h [euph] f [qtid] s [qtip] s [QIyd] s [QIys] 
+d [wuof] h [wuoh] f [eupj] h [euph] f [qtid] s [qtip] 
+s [QIyd] s [QIys] d [wuof] h [wuoh] f [eupj] h [euph] 
+[fx] [qtiz] l [qtij] l [QIyz] l [QIyl] z [wuox] v 
+[wuov] x [eupb] v [eupv] x [qtiz] l [qtij] l [QIyz] 
+l [QIyl] z [wuox] v [wuov] x [eupb] v [eupv] x [9eyx] 
+[9eyl] [9eyl] [9eyz] [wyox] [wyov] [wyov] [wyob] [8tlxvm] 
+8 ]]
